@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+html {
+    overflow-x: hidden;
+  }
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #B79359;
+    border-radius: 30px;
+}
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*section 1*/
+section.sec-1 {
+    background-image: url(imgs/Img\ fundo\ sec1.png); /* Caminho da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a section */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 100vh; /* Define a altura como 100% da tela */
+}
+  
+
+
+
+.txt1 h1{
+    font-size: 48px;
+    color: white;
+    max-width: 540px;
+    line-height: 50px;
+}
+
+.txt1 p{
+    font-size: 20px;
+    color: white;
+    max-width: 500px;
+    font-weight: 100;
+}
+
+.txt1 h5{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 100px;
+    background: linear-gradient(to right, #7C643D, #B79359, #B79359);
+    border-radius: 20px;
+    padding: 20px;
+    width: 440px;
+    margin-left: 900px;    
+}
+
+.txt-topo{
+    margin-top: 50px;
+}
+
+button{
+    width: 150px;
+    color: white;
+    background-color: #B79359;
+    border-radius: 30px;
+    padding: 6px;
+    border: solid 3px #B79359;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Define a transição */
+}
+
+button:hover{
+    color: #B79359;
+    background-color: white;
+    transform: scale(1.04);
+    transition: .2s;
+}
+
+/*section 2*/
+
+.flex{
+    display: flex;
+}
+
+section.sec-2{
+    margin-top: 200px;
+}
+
+.txt-sec2 h2,h4,p{
+    color: #B79359;
+}
+
+.txt-sec2 h2{
+    max-width: 613px;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.txt-sec2 h4{
+    font-size:32px ;
+    max-width: 519px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #7C643D;
+}
+
+.txt-sec2{
+    margin-top: 60px;
+}
+
+.txt-sec2 p{
+    max-width: 585px;
+    color: #7C643D;
+}
+
+.txt-sec2 button{
+    border: solid 2px #B79359;
+}
+
+section.sec-2 .flex{
+    justify-content: center;
+}
+
+/*section 3*/
+
+section.sec-3{
+    margin-top: 100px;
+}
+
+section.sec-3 .box button{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+section.sec-3 .flex{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.flex-b{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #B79359;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    height: 426px;
+}
+
+.box h1{
+    max-width: 275px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.sec-3 .flex-b .box {
+    position: relative; /* Permite o posicionamento absoluto dos filhos */
+}
+
+.sec-3 .flex-b .box img {
+    width: 100%; /* A imagem ocupa toda a largura da caixa */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.sec-3 .flex-b .box h1,
+.sec-3 .flex-b .box .button {
+    position: absolute;
+    bottom: 20px; /* Distância do fundo da caixa */
+    left: 10px; /* Distância da lateral esquerda da caixa */
+}
+
+.sec-3 .flex-b .box:hover img {
+    opacity: 0.7;
+    transition: 0.6s ease;
+}
+
+.titulo-sec3 h1{
+    font-size: 48px;
+    max-width: 346px;
+    color: #B79359;
+    line-height: 50px;
+}
+
+.paragrafo3 p{
+    max-width: 665px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7C643D;
+}
+
+.sec-3 .flex-b .box {
+    position: relative;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da box */
+}
+
+.sec-3 .flex-b .box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.6s ease; /* Transição suave para o zoom */
+}
+
+.sec-3 .flex-b .box:hover img {
+    transform: scale(1.2); /* Aumenta a imagem em 20% no hover */
+}
+
+/*section 4*/
+
+section.sec-4{
+    margin-top: 100px;
+}
+
+.titulo4 h1{
+    color: #B79359;
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 346px;
+}
+
+.para4 p{
+    font-size: 20px;
+    color: #7C643D;
+    line-height: 25px;
+    max-width: 635px;
+}
+
+section.sec-4 .flex{
+    justify-content: center;
+    gap: 40px;
+}
+
+.box1{
+    max-width: 393px;
+    margin-top: 80px;
+}
+
+.box1 h1{
+    color: #B79359;
+    font-size: 32px;
+}
+
+.box1 p{
+    font-size: 14px;
+    color: #7C643D;
+    max-width: 297px;
+}
+
+.box1 button{
+    border: solid 2px #B79359 ;
+}
+
+.box1 I{
+    font-size: 40px;
+    color: #B79359;
+    margin-right: -20px;
+}
+
+/*section 5*/
+
+section.sec-5{
+    margin-top: 100px;
+}
+
+section.sec-5 .flex{
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.titulo-s h1{
+    color: #B79359;
+    font-size: 48px;
+    max-width: 200px;
+    line-height: 50px;
+    margin-left: 150px;
+}
+
+.txt-sobre p{
+    max-width: 390px;
+    color:#7C643D;
+    font-size: 15px;
+}
+
+
+section.sec-5 button{
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 3px #B79359;
+}
+
+.img-sobre img{
+    border-radius: 30px;
+}
+
+/*rodapé*/
+section.rodapé .txt1 h5{
+    margin-left: 0;
+    border: solid 3px white;
+    width: 350px;
+    margin: 30px;
+    font-size: 38px;
+}
+
+section.rodapé{
+    height: 300px;
+    background-color: #B79359;
+    margin-top: 200px;
+}
+
+section.rodapé .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+
+.coluna-1 p{
+    max-width: 340px;
+    color: white;
+    margin-left: 35px;
+}
+
+.coluna-2 a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.coluna-2 h1{
+    font-size: 38px;
+    color: #7C643D;
+}
+
+.icones a {
+    display: flex;  /* Alinha ícone e texto na horizontal */
+    align-items: center;  /* Centraliza verticalmente */
+    gap: 8px;  /* Espaço entre ícone e texto */
+    text-decoration: none;  /* Remove sublinhado */
+    color: white;  /* Mantém a cor do texto padrão */
+    font-weight: 600;
+}
+
+.icones :hover{
+    color: #7C643D;
+    transition: .2s ease;
+}
+
+.icones i:hover{
+    color: white;
+    transition: .2s ease;
+}
+
+.icones i{
+    font-size: 20px;
+    color: #7C643D;
+    padding: 10px;
+}
+
+hr{
+    margin-top: 50px;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    section.sec-1 {
+        background-image: url(imgs/MEDIA\ 2.png); /* Caminho da imagem */
+        background-size: cover; /* Ajusta a imagem para cobrir toda a section */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+        height: 100vh; /* Define a altura como 100% da tela */
+        width: 100%;
+    }
+
+    .txt-topo{
+        margin-top: -100px;
+        padding: 10px;
+    }
+
+    .txt1 h5{
+        margin-left: 0;
+        margin-top: 100px;
+        width: 240px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    /*section 2*/
+    .flex{
+        flex-direction: column;
+    }
+
+    .img-2 img{
+        width: 400px;
+    }
+
+    .txt-sec2{
+        padding: 10px;
+    }
+
+    /*section 3*/
+    .flex-b{
+        flex-direction: column;
+    }
+    .titulo-sec3, .paragrafo3{
+        padding: 10px;
+    }
+
+    /*section 4*/
+    .titulo4, .para4{
+        padding: 10px;
+    }
+
+    .box1{
+        text-align: center;
+    }
+
+    .box1 p{
+        align-items: center;
+        margin-left: 50px;
+    }
+    /*section 5*/
+    .img-sobre img{
+        width: 340px;
+        margin-left: 25px;
+    }
+    .titulo-s h1{
+        margin-left: 10px;
+    }
+
+    .txt-sobre{
+        padding: 10px;
+    }
+
+    /*rodape*/
+    section.rodapé{
+        height: 600px;
+    }
+
+    .coluna-2{
+        margin-top: -300px;
+    }
+}
