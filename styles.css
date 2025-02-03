@@ -53,14 +53,8 @@ section.sec-1 {
     font-weight: 100;
 }
 
-.txt1 h5{
-    font-size: 50px;
-    color: #ffffff;
-    margin-bottom: 100px;
-    background: linear-gradient(to right, #7C643D, #B79359, #B79359);
+.txt1 img{  
     border-radius: 20px;
-    padding: 20px;
-    width: 440px;
     margin-left: 900px;    
 }
 
@@ -309,12 +303,10 @@ section.sec-5 button{
 }
 
 /*rodapé*/
-section.rodapé .txt1 h5{
+section.rodapé .txt1 img{
     margin-left: 0;
-    border: solid 3px white;
-    width: 350px;
-    margin: 30px;
-    font-size: 38px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
 
 section.rodapé{
