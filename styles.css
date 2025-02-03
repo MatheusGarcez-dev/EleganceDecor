@@ -13,7 +13,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #B79359;
+    background-color: #1E1E1E;
     border-radius: 30px;
 }
 
@@ -50,32 +50,31 @@ section.sec-1 {
     font-size: 20px;
     color: white;
     max-width: 500px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .txt1 img{  
-    border-radius: 20px;
-    margin-left: 900px;    
+    border-radius: 20px;  
 }
 
 .txt-topo{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 button{
     width: 150px;
     color: white;
-    background-color: #B79359;
+    background-color: #1E1E1E;
     border-radius: 30px;
     padding: 6px;
-    border: solid 3px #B79359;
+    border: solid 3px #1E1E1E;
     margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease; /* Define a transição */
 }
 
 button:hover{
-    color: #B79359;
+    color: #1E1E1E;
     background-color: white;
     transform: scale(1.04);
     transition: .2s;
@@ -92,7 +91,7 @@ section.sec-2{
 }
 
 .txt-sec2 h2,h4,p{
-    color: #B79359;
+    color: #1E1E1E;
 }
 
 .txt-sec2 h2{
@@ -106,7 +105,7 @@ section.sec-2{
     max-width: 519px;
     line-height: 35px;
     font-weight: 300;
-    color: #7C643D;
+    color: #3a3a3a;
 }
 
 .txt-sec2{
@@ -115,11 +114,7 @@ section.sec-2{
 
 .txt-sec2 p{
     max-width: 585px;
-    color: #7C643D;
-}
-
-.txt-sec2 button{
-    border: solid 2px #B79359;
+    color: #1E1E1E;
 }
 
 section.sec-2 .flex{
@@ -150,7 +145,7 @@ section.sec-3 .flex{
 }
 
 .box{
-    background-color: #B79359;
+    background-color: #1E1E1E;
     border-radius: 30px;
     margin-bottom: 20px;
     height: 426px;
@@ -181,14 +176,14 @@ section.sec-3 .flex{
 }
 
 .sec-3 .flex-b .box:hover img {
-    opacity: 0.7;
+    opacity: 0.3;
     transition: 0.6s ease;
 }
 
 .titulo-sec3 h1{
     font-size: 48px;
     max-width: 346px;
-    color: #B79359;
+    color: #1E1E1E;
     line-height: 50px;
 }
 
@@ -196,7 +191,7 @@ section.sec-3 .flex{
     max-width: 665px;
     font-size: 20px;
     line-height: 25px;
-    color: #7C643D;
+    color: #131313;
 }
 
 .sec-3 .flex-b .box {
@@ -218,10 +213,13 @@ section.sec-3 .flex{
 
 section.sec-4{
     margin-top: 100px;
+    height: 460px;
+    background-color: #1E1E1E;
+    padding: 50px;
 }
 
 .titulo4 h1{
-    color: #B79359;
+    color: #ffffff;
     font-size: 48px;
     line-height: 50px;
     max-width: 346px;
@@ -229,7 +227,7 @@ section.sec-4{
 
 .para4 p{
     font-size: 20px;
-    color: #7C643D;
+    color: #ffffff;
     line-height: 25px;
     max-width: 635px;
 }
@@ -239,29 +237,37 @@ section.sec-4 .flex{
     gap: 40px;
 }
 
+section.sec-4 button{
+    background-color: #ffffff;
+    color: #1E1E1E;
+    border: solid 2px #ffffff;
+}
+
+section.sec-4 button:hover{
+    background-color: #3a3a3a;
+    color: #ffffff;
+
+}
+
 .box1{
     max-width: 393px;
     margin-top: 80px;
 }
 
 .box1 h1{
-    color: #B79359;
+    color: #ffffff;
     font-size: 32px;
 }
 
 .box1 p{
     font-size: 14px;
-    color: #7C643D;
+    color: #ffffff;
     max-width: 297px;
-}
-
-.box1 button{
-    border: solid 2px #B79359 ;
 }
 
 .box1 I{
     font-size: 40px;
-    color: #B79359;
+    color: #ffffff;
     margin-right: -20px;
 }
 
@@ -278,7 +284,7 @@ section.sec-5 .flex{
 }
 
 .titulo-s h1{
-    color: #B79359;
+    color: #1E1E1E;
     font-size: 48px;
     max-width: 200px;
     line-height: 50px;
@@ -287,7 +293,7 @@ section.sec-5 .flex{
 
 .txt-sobre p{
     max-width: 390px;
-    color:#7C643D;
+    color:#161616;
     font-size: 15px;
 }
 
@@ -295,7 +301,6 @@ section.sec-5 .flex{
 section.sec-5 button{
     font-size: 20px;
     font-weight: 600;
-    border: solid 3px #B79359;
 }
 
 .img-sobre img{
@@ -305,13 +310,14 @@ section.sec-5 button{
 /*rodapé*/
 section.rodapé .txt1 img{
     margin-left: 0;
-    margin-top: 15px;
+    margin-bottom: -50px;
     margin-left: 30px;
+    margin-top: -30px;
 }
 
 section.rodapé{
     height: 300px;
-    background-color: #B79359;
+    background-color: #1E1E1E;
     margin-top: 200px;
 }
 
@@ -334,7 +340,7 @@ section.rodapé .flex{
 
 .coluna-2 h1{
     font-size: 38px;
-    color: #7C643D;
+    color: #ffffff;
 }
 
 .icones a {
@@ -347,7 +353,7 @@ section.rodapé .flex{
 }
 
 .icones :hover{
-    color: #7C643D;
+    color: #0e0e0e;
     transition: .2s ease;
 }
 
@@ -358,7 +364,7 @@ section.rodapé .flex{
 
 .icones i{
     font-size: 20px;
-    color: #7C643D;
+    color: #faf9f8;
     padding: 10px;
 }
 
@@ -382,12 +388,9 @@ hr{
         padding: 10px;
     }
 
-    .txt1 h5{
-        margin-left: 0;
-        margin-top: 100px;
-        width: 240px;
-        font-size: 25px;
-        margin-bottom: 50px;
+    .txt1 img{
+        margin-top: 30px;
+        margin-bottom: -30px;
     }
     /*section 2*/
     .flex{
@@ -411,8 +414,17 @@ hr{
     }
 
     /*section 4*/
+    section.sec-4{
+        height: 1400px;
+    }
+
     .titulo4, .para4{
         padding: 10px;
+    }
+
+    .icone i{
+        margin-left: -15px;
+        margin-bottom: -20px
     }
 
     .box1{
@@ -421,7 +433,6 @@ hr{
 
     .box1 p{
         align-items: center;
-        margin-left: 50px;
     }
     /*section 5*/
     .img-sobre img{
